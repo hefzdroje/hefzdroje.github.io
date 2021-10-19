@@ -55,6 +55,13 @@ function main() {
   // objects we'll be drawing.
   const buffers = initBuffers(gl);
 
+  
+  // Set clear color to black, fully opaque
+  gl.clearColor(0.8, 0.8, 0.8, 1.0);
+  // Clear the color buffer with specified clear color
+  gl.clear(gl.COLOR_BUFFER_BIT);
+  
+  
   // Draw the scene
   drawScene(gl, programInfo, buffers);
 }
