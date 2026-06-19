@@ -1,10 +1,10 @@
-# fly.toml app configuration file generated for hefzdroje-flytest-io on 2026-06-18T14:00:30Z
+# fly.toml app configuration file generated for hefzdroje-githef-io on 2026-06-19T15:14:46Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'hefzdroje-flytest-io'
-primary_region = 'iad'
+app = 'hefzdroje-githef-io'
+primary_region = 'ams'
 
 [build]
 
